@@ -19,8 +19,8 @@ It was developed as part of a frontend assessment focusing on clean structure, m
 
 ### 1. Clone the Repository
 ```bash
-git clone <YOUR_REPO_URL>
-cd <YOUR_PROJECT_NAME>
+git clone <https://github.com/AntonNageh/Hotel-reservation-system>
+cd <Hotel-reservation-system>
 ``` 
 ### 2. Install Dependencies
 ```bash
