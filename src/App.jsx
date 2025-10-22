@@ -9,7 +9,6 @@ import SignUp from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
 import { Toaster } from "sonner";
-import { TooltipProvider } from "@radix-ui/react-tooltip";
 
 const queryClient = new QueryClient();
 
@@ -18,7 +17,6 @@ const App = () => (
     <QueryClientProvider client={queryClient}>
       
         <Toaster />
-        <TooltipProvider>
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -30,7 +28,6 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
-      </TooltipProvider>
     </QueryClientProvider>
   </Provider>
 );
